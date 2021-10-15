@@ -4,7 +4,7 @@
 
 
 
-* Neste diretório vou falar um pouquinho e resumidamente sobre metodologias ágeis pela visão baseado no que aprendi nas aulas assíncronas de metodologias ágeis;
+* Neste diretório vou falar um pouquinho e resumidamente sobre metodologias ágeis pela minha visão baseado no que aprendi nas aulas assíncronas de metodologias ágeis;
 
 
 
