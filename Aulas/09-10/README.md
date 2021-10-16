@@ -1,6 +1,9 @@
 ### Exercícios - Java :coffee: 
 
-* ​[Algoritmo](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Aulas/09-10/algoritmo.md)   :arrow_right:  exercício para exercitar o pensamento sobre algoritmo; 
+--------
+
+* [Algoritmo](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Aulas/09-10/algoritmo.md)   :arrow_right:  exercício para exercitar o pensamento sobre algoritmo; 
+
 
 * [Exercício 1](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Aulas/09-10/Condicionais/src/ExerciciosCondicionais.java)  :arrow_right:  sobre qual é o número maior e o menor; 
 
@@ -17,3 +20,4 @@
   ​
 
   ​
+
