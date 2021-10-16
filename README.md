@@ -16,7 +16,11 @@
 
 - 11/10   :arrow_right:     Aula continuação a lógica de programação  /  [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/11-10)
 
-- 14/10   :arrow_right:     Aula continuação a lógica de programação /   [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/14-10)
+- 14/10   :arrow_right:     Aula Introdução a programação orientada a objetos   /   [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/14-10)
+
+- 15/10   :arrow_right:     Aula continuação a programação orientada a objetos /  [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/15-10)
+
+  ​
 
   ​
 
