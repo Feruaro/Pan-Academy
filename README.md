@@ -20,6 +20,10 @@
 
 - 15/10   :arrow_right:     Aula continuação a programação orientada a objetos /  [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/15-10)
 
+- 16/10   :arrow_right:     Aula sobre encapsulamento, herança e polimorfismo /  [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/16-10)
+
+  ​
+
   ​
 
   ​
