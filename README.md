@@ -1,11 +1,11 @@
-## Olá! Sejam Bem-vindxs ao meu repositório Pan Academy!
+## Olááá!! Sejam Bem-vindxs ao meu repositório Pan Academy!
 
 - Nesse repositório vou registrar a minha evolução e crescimento neste curso a qual estou tendo a oportunidade de particicar sobre Java e Cloud oferecido pelo Banco Pan junto com a Gama Academy.
 
   ​
 
 
-#### :bookmark: Aulas:
+#### :book: Aulas:
 
 -----------
 
