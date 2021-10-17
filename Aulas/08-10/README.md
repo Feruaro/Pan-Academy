@@ -1,17 +1,14 @@
-####       Aula Git Pan Academy:
-
 * Nome: Fernanda Ayres Ruaro
 
 * Prato favorito: sushi
 
-* Curiosidade: amo cozinhar, principalmente pratos vegetarianos / veganos 💚
+* Curiosidade sobre mim: amo cozinhar, principalmente pratos vegetarianos / veganos 💚
 
   ​
 
+### :cat: Aula Git:
 
----------
-
-
+---------------------------------------
 
 :arrow_right: Nesta aula aprendemos sobre o git e o github, e utilizei esse diretório para exercitar os conhecimentos aprendido:
 

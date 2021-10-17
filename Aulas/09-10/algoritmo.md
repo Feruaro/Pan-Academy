@@ -2,9 +2,11 @@
 
 
 
-**1 -  Faça um algoritmo que mostre o passo a passo para trocar uma de lâmpada queimada.**
+**1 -  Faça um algoritmo que mostre o passo a passo para trocar uma de lâmpada queimada 💡 **
 
-- Passo 1 - Ligue o interruptor para ver se a lâmpada está funcionando.
+-------------------------------------------------
+
+* Passo 1 - Ligue o interruptor para ver se a lâmpada está funcionando.
 
 - Passo 2 - Se a lâmpada estiver queimada, desligue o interruptor.
 
@@ -30,11 +32,14 @@
 
 - Passo 13 - Se a lâmpada não funcionar, repita o processo.
 
+  ​
 
 
-**2 - Faça um algoritmo que mostre o passo a passo para passear com seu animal de estimação.**
+**2 - Faça um algoritmo que mostre o passo a passo para passear com seu animal de estimação :dog2:**
 
-- Passo 1 - Verificar se está chovendo
+------------------------------
+
+* Passo 1 - Verificar se está chovendo
 
 - Passo 2 - Se sim, esperar passar a chuva e ir para o passo 4.
 
@@ -46,11 +51,14 @@
 
 - Passo 6 - Sair e Passear
 
-  
+  ​
 
-**3 - Faça um algoritmo que mostre o passo a passo para acessar um computador.**
 
-- Passo 1 - verifico se o computador está na tomada
+**3 - Faça um algoritmo que mostre o passo a passo para acessar um computador :desktop_computer:**
+
+----------------------
+
+* Passo 1 - verifico se o computador está na tomada
 
 - Passo 2 - se não estiver eu coloco na tomada
 
@@ -60,11 +68,14 @@
 
 - Passo 5 - coloco minha senha senha e agora tenho acesso ao meu computador.
 
+  ​
 
 
-**4 - Faça um algoritmo que mostre o passo a passo para lavar um copo**
+**4 - Faça um algoritmo que mostre o passo a passo para lavar um copo 🥛**
 
-- Passo 1 - pegar a bucha 
+-------------------
+
+* Passo 1 - pegar a bucha 
 
 - Passo 2 - colocar o detergente na bucha
 
@@ -78,11 +89,15 @@
 
 - Passo 7 - enxugar o copo com um pano
 
-  
+  ​
 
-**5  - Faça um algoritmo que mostre o passo a passo para postar uma foto em um rede social**
 
-- Passo 1: Abra a rede social
+**5  - Faça um algoritmo que mostre o passo a passo para postar uma foto em um rede social** 📱
+
+--------------------------
+
+* Passo 1: Abra a rede social
+
 - Passo 2: Faça o login na rede social
 - Passo 3: Caso já tenha cadastro, entre na sua conta informando login e senha, se não criar uma conta;
 - Passo 4: Procure a aba de adicionar foto 
