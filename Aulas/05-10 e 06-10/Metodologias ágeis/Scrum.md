@@ -17,7 +17,7 @@
 
 ### Equipe Scrum:
 
-
+-------
 
 * **Características:**
   * Crossfuncional:  a equipe detém de todos os conhecimentos específicos e necessários para entregar valor (produto) sem buscar conhecimento fora da equipe;
@@ -27,8 +27,7 @@
   * Envolvimento do cliente ao longo do tempo de projeto;
   * No máximo 10 pessoas / membros (recomendável);
   * Uma equipe ágil deve ser formada de generalistas e/ou especialistas;
-
-- - Ideal é pessoas de modelo em T: Especialista em algo, mas com conhecimento em outras áreas, flexíveis.
+  * Ideal é pessoas de modelo em T: Especialista em algo, mas com conhecimento em outras áreas, flexíveis.
 
 
 
@@ -45,9 +44,9 @@
   * Faz o meio de campo entre a Organização e a Equipe Scrum;
   * Causa a remoção de impedimentos (externos e internos);
 
-* - Treina a equipe para ter autonomia;
-  - Equipe (devs) que procura por ajuda do SM;
-  - Lidera e facilita a adoção do Scrum;
+  * Treina a equipe para ter autonomia;
+  * Equipe (devs) que procura por ajuda do SM;
+  * Lidera e facilita a adoção do Scrum;
 
 
 
@@ -57,14 +56,15 @@
     ​
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 ### Sprint: 
 
-- Dura no máximo 1 mês;
+-----------
+
+* Dura no máximo 1 mês;
+
 - Product Backlog (demandas do produto final):
+
+  ​
 
 
 
@@ -76,32 +76,28 @@
 
 - Daily Scrum: 
 
-- - reunião diária com os Devs (geralmente sem a presença do SM);
+  - reunião diária com os Devs (geralmente sem a presença do SM);
   - duração de 15 min (recomendável);
   - para falar sobre as demandas do dia e do dia anterior;
 
 - Sprint Review:
 
-- - Reunião de apresentação do produto (valor) / resultado desenvolvido durante a sprint com todo a      equipe scrum;
+  - Reunião de apresentação do produto (valor) / resultado desenvolvido durante a sprint com todo a      equipe scrum;
   - Apresentar, avaliar e receber feedback (de valor);
   - Produto = Incremento: Resultado tangível, usável   :arrow_right:   chave do Scrum;
   - Inspecionar o produto e adaptar o plano / visão;
 
 - Sprint Retrospective:
 
-- - Reunião para discussão da equipe sobre melhorias - inspecionar o trabalho da equipe, autoanálise;
+  - Reunião para discussão da equipe sobre melhorias - inspecionar o trabalho da equipe, autoanálise;
 
  #### FIM.
 
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 ### Gestão de Produto:
 
-
+---------
 
 * Product Goal (meta do produto)   :arrow_left: ---<< atingir >>---- Product Backlog
   * data;
@@ -109,7 +105,7 @@
   * funcionalidades: ex. cadastrar, buscar...;
   * métricas;
 
- **Roadmap: sequência de passos / product goal**
+   **Roadmap: sequência de passos / product goal**
 
 
 
@@ -126,17 +122,17 @@
   ​
 
 
-
  ### Product Backlog:
 
- 
+----------
 
 1. Detalha tudo que deve ser necessário no produto, no nível certo (JIT – just in time):
+
    * Funcionalidade;
 
    * Débito técnico;
 
-   * Spike investigativo (aumentar     conhecimento, reduzir incertezas);
+   * Spike investigativo (aumentar conhecimento, reduzir incertezas);
 
    * Defeito;
 
@@ -151,31 +147,39 @@
      ​
 
 
-
 * Épicos: lembretes / tópicos 
 * User story: refinação de épicos (quando estiver próximo de entrar no sprint)
   * Devem "caber" em uma sprint, senão quebrar em mais user story (boa prática);
   * Escrito em um cartão:
     * Frente: Ator  /  desejo  /  para;
+
     * Trás: detalhado - critérios
 
-
+      ​
 
 
 
 2. É ordenado levando em consideração tamanho, risco, valor edependência, risco, entre outros;
    * PO que define oque se levar em consideração!
+
    * BV = valor;
+
    * Size = tamanho;
+
    * ROI = retorno de investimento -> (BV / Size);
+
    * TCO = Total cost of ownership - custo total de posse;
+
    * Value (M = Mandatório - obrigatório  /  L = Linear - quanto mais tiver, melhor  /  E = não espera, mas se tiver vai ficar feliz / satisfeito);
 
-​
+     ​
 
 ### Estimativas ágil: 
 
+--------------------------
+
 * muito esforço = ajuda pouco, pode até atrapalhar;
+
 
 * pouco esforço = ajuda muito;
 
@@ -234,28 +238,23 @@
 * Em seguida agrupar as respostas e chegar à conclusão de acordo com a legenda:
 
   * O - Obrigatório
-
   * L - Linear
-
   * E - Excitador
-
   * ​Q - Questionável   :arrow_right:   perguntar para a pessoa sobre a resposta, para entender melhor, talvez não     entendeu muito bem a pergunta;
-
   * ​R – Reverso  :arrow_right:   perguntar para a pessoa sobre a resposta, para entender melhor, talvez não     entendeu muito bem a pergunta;
+  * I – Indiferente  :arrow_right:  não faz diferença ter;
 
-  * ​I – Indiferente  :arrow_right:  não faz diferença ter;
+* **Quanto mais tarde entrar no mercado, mais itens se tornam obrigatórios por causa da concorrência.**
 
-    ​
+  ​
 
-**Quanto mais tarde entrar no mercado, mais itens se tornam obrigatórios por causa da concorrência.**
-
-
+### Sprint Planning (TimeBoxing: até 8h):
 
 -------------------------
 
-
-
 * **Não existe regra que impeça um item de entrar ou não em uma Sprint, existem guias para a equipe, mas é a mesma que decide.**
+
+
 * Definition of _Ready_: item de backlog preparado, mesmo que não esteja com todos os "critérios" definidos ou prontos.
 * Definition of *Done*: pronto para entrar pro mercado.
   * Fase de Increment, mas os critérios são definidos antes da Sprint;
@@ -263,19 +262,19 @@
   * Só estará *Done* quando cumprir / estar dentro de todos os critérios;
   * Critérios (gates) - alguns exemplos:
     * Garantia de Qualidade;
+
     * Arquitetura;
+
     * Requisitos Não-Funcionais;
+
     * Gerenciamento do Processo      (documentação necessária);
+
     * Gerenciamento da Configuração;
 
+      ​
 
 
-
-### Sprint Planning (TimeBoxing: até 8h):
-
-
-
-* ​Product Backlog (Definition of Ready)   :arrow_right:   Sprint  :arrow_right:   Product Increment (Definition of Done)
+* Product Backlog (Definition of Ready)   :arrow_right:   Sprint  :arrow_right:   Product Increment (Definition of Done)
 
 
 
@@ -292,16 +291,16 @@
 3. **Saída:**  Sprint Goal (meta da Sprint)  :arrow_right:  PBI (itens de backlog)  :arrow_right:  Sprint Backlog;
    * Ao final da Sprint Planning: tudo em um Scrum Board;
 
-
-
-
+     ​
 
 
 ### Sprint (execução):
 
-
+-------------
 
 * A meta - Sprint Goal - é rígida, não pode ser alterada!! Caso não faça mais sentido por algum motivo, encerra a Sprint.
+
+
 * O resto é flexível, pode ser alterado!!
 * Cria os entregáveis (tudo na própria integração);
 * Boa prática:  Scrum Board (Items  |  To Do  |  WIP (Work in Progress)   |   Done)
@@ -322,56 +321,69 @@
 
 - Refinar o Product Backlog :arrow_right:  Backlog Refinement: não existe regras para ser feita!
 
-
-
--------------
-
+  ​
 
 
 ### Desvendando alguns mitos:
 
+-------------
+
 1. Você não precisa lançar ao final de cada Sprint (se a equipe chegar na conclusão que não irá gerar valor);
+
 2. A Sprint não é um gate. Um lançamento pode ser realizado durante a Sprint (Sprint delivery);
 
- 
+   ​
 
 ### Respondendo algumas perguntas:
 
+----------
+
 1. A sprint está terminando e nem todas as tarefas foram atualizadas. A equipe quer jogar algumas para a     próxima Sprint. O que fazer? 
-   * R: SM - Não! Volta pro Product Backlog;
+
+* R: SM - Não! Volta pro Product Backlog;
+
 2. Surgiu um bug crítico em produção. Estamos na metade da Sprint. Temos que esperar para a próxima     Sprint para corrigi-lo? 
-   * R: Não!
 
+* R: Não!
 
-
--------------
-
-
+  ​
 
 ### Sprint Review (TimeBoxing: 4h):
 
- 
+---------------
 
-- É uma reunião com todos os envolvidos da equipe Scrum para apresentar o produto (valor) tangível     desenvolvido durante a Sprint para os cliente / usuários finais, com isso recebendo um feedback;
+* É uma reunião com todos os envolvidos da equipe Scrum para apresentar o produto (valor) tangível     desenvolvido durante a Sprint para os cliente / usuários finais, com isso recebendo um feedback;
+
 - Feedback de valor: algo real;
+
 - Quem? Equipe completa Scrum (que tenha valor a dar no feedback);
+
 - Não é uma regra que seja feito um feedback apenas na Sprint Review, existem esses momentos     preestabelecidos no Scrum, mas pode ser feitos em outros momentos durante a sprint;
+
 - Adaptação é em cima de um feedback sobre um produto tangível;
+
 - Nesta reunião pode ser usado quadros como: Burndown Chart / Burnup Chart;
 
- 
+  ​
+
 
 ### Sprint Retrospective (TimeBoxing: 3h):
 
-  
+-----------------
 
-- Depois da Sprint Review;
+* Depois da Sprint Review;
+
 - Inspecionar e adaptar a própria equipe;
+
 - **Objetivo**  :arrow_right:  melhoria continua da equipe;
+
 - Quem? Equipe completa;
+
 - Pode ser o SM a conduzir a reunião, não é obrigatório;
 
- 
+  ​
+
+
 
 1. **Preparar o cenário:**
    * Dar as boas-vindas (a equipe completa) e reiterar a importância da reunião; 
@@ -386,18 +398,28 @@
      * Hapiness radar (quadro com tópicos e emoções);
 3. **Gerar ideias:**
    * "Por que isso aconteceu?"
+
    * "Como podemos melhorar?"
+
    * Causa-efeito
+
    * Riscos...
+
    * Técnicas: Diagrama de Ishikawa (Causa e efeito)  /  5 Whys --> 5 Root Cause
+
+     ​
 
 
 
 ​**Coleta dados + Gerar ideias  :arrow_right:  formam o quadro de:**
 
 - What went well? (o que está indo bem) -> coleta de dados;
+
 - What did not go well? (o que não está indo bem)  -> coleta de dados;
+
 - How can we improve? (como podemos melhorar) -> gerar ideias;
+
+  ​
 
 
 
@@ -406,13 +428,14 @@
    * Tratar itens de melhoria como itens de backlog: retrospective planning game  |  planning poker  | dot voting;
 5. **Fechar a Retrospective:**
    * Agradecer à equipe pelo trabalho duro;
+
    * Coletar feedback sobre a dinâmica da Sprint Retrospective;
+
+     ​
 
 
 
 **Uma boa retrospective pode trazer resultados bons para a equipe, afinal o objetivo é a melhoria contínua**
-
-
 
 -----
 

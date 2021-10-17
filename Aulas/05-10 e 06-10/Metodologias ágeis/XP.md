@@ -4,7 +4,9 @@
 
 ### XP – EXTREME PROGRAMMING:
 
-- Criado na época de 90. No início era o mais "famoso" perdendo espaço para o Scrum e entrando em desuso como uma metodologia ágel no geral (pelo Scrum ser mais flexível - os dois são similares), mas em relação a metodologia de cronstrução de software é utilizado;
+--------------
+
+* Criado na época de 90. No início era o mais "famoso" perdendo espaço para o Scrum e entrando em desuso como uma metodologia ágel no geral (pelo Scrum ser mais flexível - os dois são similares), mas em relação a metodologia de cronstrução de software é utilizado;
 
 - Raízes da agilidade;
 
@@ -25,6 +27,8 @@
   ​
 
 ### Práticas do XP:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. **Padrão de código - checkstyle;**
 2. **TDD (Test-Driven Development)**  ➡️   ciclo: testes | programa | refatorar;
@@ -63,5 +67,5 @@
      - Par de júnior pode alcançar performance de um sênior;
      - Fatores que podem influenciar: aspectos sociais | tipos de tarefa;
 
- 
+
 
