@@ -1,12 +1,15 @@
-### Olááá!! Sejam Bem-vindxs ao meu repositório Pan Academy!
+## Olá! Sejam Bem-vindxs ao meu repositório Pan Academy!
 
 - Nesse repositório vou registrar a minha evolução e crescimento neste curso a qual estou tendo a oportunidade de particicar sobre Java e Cloud oferecido pelo Banco Pan junto com a Gama Academy.
 
+  ​
 
 
-#### Aulas:
+#### :bookmark: Aulas:
 
-- 04/10   :arrow_right:    Abertura
+-----------
+
+* 04/10   :arrow_right:    Abertura
 
 - 05/10 e 06/10    :arrow_right:   Aulas assíncronas sobre metodologias ágeis  /  [Resumo - metodologias ágeis](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/05-10%20e%2006-10)
 
