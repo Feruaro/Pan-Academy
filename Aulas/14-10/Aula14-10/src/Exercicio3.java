@@ -12,10 +12,9 @@ public class Exercicio3 {
 		String palavra = scan.nextLine();
 		scan.close();
 		
-		String letra[] = palavra.split("");
-		
-		for(int i=0; i<palavra.length(); i++) {
-			System.out.println(letra[i]);
+		String letra[] = palavra.split("");		
+		for(String i : letra) {
+			System.out.println(i);
 		}
 		
 	}
