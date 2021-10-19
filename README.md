@@ -25,6 +25,10 @@
 
 - 16/10   :arrow_right:     Aula sobre encapsulamento, herança e polimorfismo /  [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/16-10)
 
+- 18/10   :arrow_right:     Aula sobre arrays, com bastante exercícios em grupo /  [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/18-10)
+
+  ​
+
   ​
 
   ​
