@@ -1,4 +1,4 @@
-## Vamos falar um pouquinho sobre Java :coffee: :
+## Vamos falar um pouquinho sobre Java - Collections :coffee: :
 
 * Neste momento vamos falar sobre Collections;
 
@@ -7,6 +7,8 @@
 * Interface java.util.Collection;
 
 * List, Queue, Set: herdam da interface Collections e implementam seus métodos;
+
+* [Certificado](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/imagens/collections.jpg)
 
   ​
 
@@ -118,7 +120,7 @@
 
 * Permite a ordenação de objetos complexos (criados pelo usuário)
 
-* [Exemplos](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Estudos%20Fe/Java/Exemplos%20Collections/src/comparators)  |  [Exercícios para praticar](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Estudos%20Fe/Java/Exemplos%20Collections/src/ExercicioFixacaoComparators)
+* Exemplos de [Comparators](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Estudos%20Fe/Java/Exemplos%20Collections/src/comparators)  |  [Exercícios para praticar](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Estudos%20Fe/Java/Exemplos%20Collections/src/ExercicioFixacaoComparators)
 
   ​
 
@@ -135,7 +137,7 @@
 
 * Permite que você execute operações em valores que podem ser nulos sem preocupações com as famosas NullPointerExceptions;
 
-* [Exemplos](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/optional/ExemploOptional.java)  |  [Exercíos para praticar](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/optional/ExercicioFixacaoOptional.java)
+* Exemplos de [Optional](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/optional/ExemploOptional.java)  |  [Exercíos para praticar](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/optional/ExercicioFixacaoOptional.java)
 
   ​
 
@@ -144,7 +146,9 @@
 -------------
 
 * Manipulação de coleções (principalmente grandes volumes de dados) com o paradgima funcional de forma paralela e com melhor performance;
+
 * Imutável: não altera a coleção origem, sempre cria uma nova coleção;
+
 * Principais funcionalidades:
   * Mapping: retorna uma coleção com mesmo tamanho da origem com os elementos alterados;
   * Filtering: retorna uma coleção igual ou menor que a coleção origem, com os elementos intactos;
@@ -152,3 +156,7 @@
   * Peek: executa uma determinada lógica para cada elemento, retornando a própria coleção;
   * Counting: retorna um inteiro que representa a contagem de elementos;
   * Grouping: retorna uma coleção agrupada de acordo com a regra definida;
+
+* Exemplos de [Stream API](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Estudos%20Fe/Java/Exemplos%20Collections/src/StreamAPI)
+
+  ​

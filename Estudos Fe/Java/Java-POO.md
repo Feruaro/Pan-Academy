@@ -1,5 +1,7 @@
 ## Vamos falar um pouquinho sobre Java :coffee: e POO :
 
+* [Certificado](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/imagens/intro_oo_java.jpg)
+
 * Programar em uma linguagem orientada a objetos não quer dizer necessariamente que você programa orientado a objetos, é necessário conhecer os conceitos e aplicá-los de fato na prática;
 
 * Conceitos:
