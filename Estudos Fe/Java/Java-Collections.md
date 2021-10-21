@@ -18,14 +18,14 @@
 
   * **ArrayList:**
 
-    * java.util.ArrayList   |   Exemplos com [ArrayList]();
+    * java.util.ArrayList   |   Exemplos com [ArrayList](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploArrayList.java);
     * mesma funcionalidade dos arrays nativamente, mas de forma dinâmica;
     * Permite adição, atualização, leitura e remoção sem regras adicionais;
     * Permite ordenação através de comparators;
 
   * **Vector:**
 
-    * java.util.Vector   |   Exemplos com o [Vector]();
+    * java.util.Vector   |   Exemplos com o [Vector](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploVector.java);
 
     * Mesmas funções que o ArrayList;
 
@@ -37,7 +37,7 @@
 
 * implementação java.util.Queue
 
-  * java.util.LinkedList   |   Exemplos com [LinkedList]();
+  * java.util.LinkedList   |   Exemplos com [LinkedList](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploLinkedList.java);
   * LinkedList implementa a interface Deque que extends a Queue;
 
 * Garante ordem de inserção;
@@ -62,9 +62,9 @@
 
 * implementação java.util.Set
 
-  * java.util.HashSet  |  Exemplos com [HashSet]();
-  * java.util.TreeSet    |  Exemplos com [TreeSet]();
-  * java.util.LinkedHashSet  |  Exemplos com [LinkedHashSet]();
+  * java.util.HashSet  |  Exemplos com [HashSet](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploHashSet.java);
+  * java.util.TreeSet    |  Exemplos com [TreeSet](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploTreeSet.java);
+  * java.util.LinkedHashSet  |  Exemplos com [LinkedHashSet](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploLinkedHashSet.java);
 
 * Por padrão, não garante ordem e nem reordenação;
 
@@ -88,9 +88,9 @@
 
 * Não herda de Collections;
 * implementação java.util.Map
-  * java.util.HashMap   |   Exemplos de [HashMap]();
-  * java.util.TreeMap     |   Exemplos de [TreeHash]();
-  * java.util.HashTable  |   Exemplos de [HashTable]();
+  * java.util.HashMap   |   Exemplos de [HashMap](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemplosHashMap.java);
+  * java.util.TreeMap     |   Exemplos de [TreeHash](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploTreeMap.java);
+  * java.util.HashTable  |   Exemplos de [HashTable](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploHashTable.java);
 * Entrada de chave e valor;
 * Permite valores repetidos, mas não permite repetição de chave;
 * Permite adição, busca por chave ou valor, atualização, remoção e navegação;
