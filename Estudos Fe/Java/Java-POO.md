@@ -103,8 +103,12 @@
 -------
 
 *  É a utilização de uma classe base, chamada de classe (pai ou mãe) ou super classes, fazendo com que uma nova classe, chamada de classe filho(a) ou subclasse, tenha todos os atributos e funções / métodos da superclasse, mais as suas próprias;
+
 * Utiliza a palavra reservada *extends* na subclasse, ou seja, a classe que irá herdar os atributos e/ou métodos da superclasse;
+
 * Toda classe extends de Object;
+
+  ​
 
 
 
