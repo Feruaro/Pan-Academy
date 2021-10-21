@@ -78,7 +78,7 @@
 
   ​
 
-  ![Set](F:\Documentos\FERNANDA\PAN\ESTUDOS FE\set.jpg)
+  ![Set](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/imagens/set.jpg)
 
   ​
 
