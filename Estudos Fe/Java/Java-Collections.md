@@ -87,11 +87,68 @@
 ----------------
 
 * Não herda de Collections;
+
 * implementação java.util.Map
   * java.util.HashMap   |   Exemplos de [HashMap](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemplosHashMap.java);
   * java.util.TreeMap     |   Exemplos de [TreeHash](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploTreeMap.java);
   * java.util.HashTable  |   Exemplos de [HashTable](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/collections/ExemploHashTable.java);
+
 * Entrada de chave e valor;
+
 * Permite valores repetidos, mas não permite repetição de chave;
+
 * Permite adição, busca por chave ou valor, atualização, remoção e navegação;
+
 * Pode ser ordenada;
+
+  ​
+
+### Comparators:
+
+-------------------
+
+* Interfaces:
+
+  * java.util.Comparator --> interface para definir classe com regra de ordenação (regra de negócio utilizável para ordenar uma collection);
+  * java.util.Comparable --> interface para definir regra de ordenação em uma classe de domínio;
+
+* Algoritmo de ordenação;
+
+* Utilizado primariamente em java.util.List;
+
+* Permite a ordenação de objetos complexos (criados pelo usuário)
+
+* [Exemplos](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Estudos%20Fe/Java/Exemplos%20Collections/src/comparators)  |  [Exercícios para praticar](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Estudos%20Fe/Java/Exemplos%20Collections/src/ExercicioFixacaoComparators)
+
+  ​
+
+### Optional:
+
+--------------
+
+* Tratamento para valores que podem ser nulos (opcionais);
+
+* Possui 2 estados:
+
+  * Presente
+  * Vazio
+
+* Permite que você execute operações em valores que podem ser nulos sem preocupações com as famosas NullPointerExceptions;
+
+* [Exemplos](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/optional/ExemploOptional.java)  |  [Exercíos para praticar](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/Java/Exemplos%20Collections/src/optional/ExercicioFixacaoOptional.java)
+
+  ​
+
+### Stream API:
+
+-------------
+
+* Manipulação de coleções (principalmente grandes volumes de dados) com o paradgima funcional de forma paralela e com melhor performance;
+* Imutável: não altera a coleção origem, sempre cria uma nova coleção;
+* Principais funcionalidades:
+  * Mapping: retorna uma coleção com mesmo tamanho da origem com os elementos alterados;
+  * Filtering: retorna uma coleção igual ou menor que a coleção origem, com os elementos intactos;
+  * ForEach: executa uma determinada lógica para cada elemento, retornando nada;
+  * Peek: executa uma determinada lógica para cada elemento, retornando a própria coleção;
+  * Counting: retorna um inteiro que representa a contagem de elementos;
+  * Grouping: retorna uma coleção agrupada de acordo com a regra definida;
