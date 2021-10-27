@@ -1,5 +1,8 @@
 package br.com.panacademy.Atividade1.controllers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,24 +13,36 @@ import br.com.panacademy.Atividade1.model.FirstApplication;
 @RequestMapping(path = "/home")
 public class FirstApplicationControllers {
 	
+	//1- Hello World
 	@GetMapping("/helloWorld")
 	public String helloWorld() {
 		return "Hello World!";
 	}
 	
+	//2- Retornar um relato sobre sua experiencia em fazer sua primeira aplicação Web Java
+	@GetMapping("/relatoExperiencia")
+	public String relatoExperiencia() {
+		
+		return "Fiquei muito feliz com a experiência da minha primeira aplicação Java Web com Spring Boot!!" +
+			  "\nUtilizei todos os conhecimentos aprendidos em aula e outros conhecimentos adquiridos em estudos das faculdades e cursos de Java" +
+			  "\nEstou cada dia mais feliz e animada com toda a minha caminhada e evolução nesta jornada!";
+	}
 	
-	//	uma string com as habilidades e mentalidades que você utilizou para realizar essa atividade.
+	//3- Retornar uma string com as habilidades e mentalidades que você utilizou para realizar essa atividade
 	
 	@GetMapping("/habilidades")
-	public String firstApp() {
-		FirstApplication firstApp = new FirstApplication();
+	public StringBuilder firstApp() {
 		
-		firstApp.setHabilidade1("Spring Boot");
-		firstApp.setHabilidade2("Spring Dev Tools");
-		firstApp.setHabilidade3("Lombok");
-		firstApp.setHabilidade4("Conhecimento Java");
+		List<String> habilidades = new ArrayList<>();
+		habilidades.add("Spring boot");
+		habilidades.add("Conhecimentos em Java");
+		habilidades.add("Lombok");
+		habilidades.add("Spring Dev Tools");
+		habilidades.add("Aulas maravilhosas da Jeni, Jonathan e Ana <3");
+				
+		FirstApplication firstApp = new FirstApplication(habilidades);		
 		
-		return firstApp.toString();
+		return firstApp.getAllHabilidades();
 	}
 	
 }
