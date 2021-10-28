@@ -1,22 +1,15 @@
 package br.com.panacademy.Atividade1.model;
 
-import java.util.List;
-
 import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-@AllArgsConstructorpublic class FirstApplication {
+@AllArgsConstructor
+@ToString
+@Getter
+@Setterpublic class FirstApplication {
 	
-	private List<String> habilidades;
-
-	public StringBuilder getAllHabilidades() {
-		StringBuilder sbr = new StringBuilder();
+	private String habilidade;
 		
-		for(int i=0; i<habilidades.size(); i++) {
-			sbr.append("Habilidade " + (i+1) + " = " + habilidades.get(i) + "\n");
-		}	
-		
-		return sbr;
-	}	
-	
-	
 }

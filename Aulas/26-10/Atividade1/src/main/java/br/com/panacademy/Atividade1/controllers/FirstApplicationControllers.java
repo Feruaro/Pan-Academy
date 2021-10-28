@@ -1,6 +1,6 @@
 package br.com.panacademy.Atividade1.controllers;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,20 +29,16 @@ public class FirstApplicationControllers {
 	}
 	
 	//3- Retornar uma string com as habilidades e mentalidades que você utilizou para realizar essa atividade
-	
 	@GetMapping("/habilidades")
-	public StringBuilder firstApp() {
+	public String firstApp() {
 		
-		List<String> habilidades = new ArrayList<>();
-		habilidades.add("Spring boot");
-		habilidades.add("Conhecimentos em Java");
-		habilidades.add("Lombok");
-		habilidades.add("Spring Dev Tools");
-		habilidades.add("Aulas maravilhosas da Jeni, Jonathan e Ana <3");
-				
-		FirstApplication firstApp = new FirstApplication(habilidades);		
+		List<FirstApplication> habilidades = Arrays.asList(new FirstApplication("Spring boot"),
+				                                           new FirstApplication("Spring Dev Tools"),
+				                                           new FirstApplication("Lombok"),
+				                                           new FirstApplication("Conhecimentos em Java"),
+				                                           new FirstApplication("Aulas maravilhosas da Jeni, Jonathan e Ana <3"));
 		
-		return firstApp.getAllHabilidades();
+		return habilidades.toString();
 	}
 	
 }
