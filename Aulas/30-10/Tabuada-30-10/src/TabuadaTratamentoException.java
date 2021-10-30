@@ -1,38 +1,47 @@
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class TabuadaTratamentoException {
 	
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
 		
-		while(true) {
-			System.out.print("\n----- Menu Tabuada -----" +
-					 		 "\n1- Calcular tabuada" +
-					         "\n2- Sair" +
-					         "\nDigite sua opção: ");
+		while(true) {			
 			try {
-				Integer op = scan.nextInt();
-				if(op == 1) {
-					System.out.print("\nDigite o número que deseja calcular a tabuada: ");
-					Integer num = scan.nextInt();
-					System.out.println("\n----- Tabuada do " + num + " -----\n");
-					for(int i=1; i<=10; i++) {
-						System.out.println(i + " x " + num + " = " +(i*num));
-					}
-				} else if(op == 2) {
+				String op = menuPrincipal(); 
+				if(op == null) break;
+ 				Integer opcao = Integer.parseInt(op);
+				
+				if(opcao == 1) {
+					String n = JOptionPane.showInputDialog("Informe o número que você deseja calcular");
+					Integer num = Integer.parseInt(n);
+					calcularTabuada(num);
+				} else if(opcao == 2) {
+					JOptionPane.showMessageDialog(null, "Saindo...");
 					break;
 				} else {
-					System.out.println("Opção inválida! Tente novamente!");
+					JOptionPane.showMessageDialog(null, "Opção inválida! Tente novamente digitando 1 ou 2");
 				}
-			} catch (InputMismatchException ime) {
-				System.err.println("Digite um número");
-				scan.next();     //limpar o buffer 
+				
+			} catch (NumberFormatException nfe) {				
+				JOptionPane.showMessageDialog(null, "Digite um número");
 			} 
 		}
-		
-		scan.close();
-						
-	}	
+										
+	}
+
+	private static String menuPrincipal() {
+		String resp = JOptionPane.showInputDialog("---- Menu Inicial ----" +
+		                                        "\n1- Calcular tabuada" +
+												"\n2- Sair" +
+		                                        "\nDigite sua opção: ");
+		return resp;
+	}
+
+	private static void calcularTabuada(Integer num) {		
+		String tabuada = "    Tabuada do " + num;		
+		for(int i=1; i<=10; i++) {
+			tabuada += ("\n" + i + " x " + num + " = " + (i*num));
+		}
+		JOptionPane.showMessageDialog(null, tabuada);
+	}
 	
 }
