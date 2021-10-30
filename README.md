@@ -22,11 +22,12 @@
 * 18/10   :arrow_right:     Aula sobre arrays, com bastante exercícios em grupo /  [Exercícios](https://github.com/Feruaro/Pan-Academy-Java/tree/main/Aulas/18-10)
 * 19/10   :arrow_right:     Aula sobre Collections e início Desafio do Programador - Turma 1 /   [Projeto](https://github.com/Feruaro/Desafio1)
 * 20/10   :arrow_right:     Aula continuação sobre Collections e início Desafio do Programador - Turma 1 /   [Projeto](https://github.com/Feruaro/Desafio1)
-* 26/10   :arrow_right:     Aula prática sobre introdução Spring Boot - Java Web / [Exercícios]()
-* 27/10   :arrow_right:     Aula Spring Web, Spring Boot Dev Tools, Spring Data JPA, Validation, H2 Database / [Exercícios]()
-* 28/10   :arrow_right:     Aula continuação - CRUD Usuario  /  [Exercícios]()
-* 29/10   :arrow_right:     Aula continuação - CRUD Produto  / [Exercícios]()
-* 30/10   :arrow_right:     Aula sobre API, Tratamento de Exceptions, Banco de Dados  /  [Exercícios - Exception]()​
+* 26/10   :arrow_right:     Aula prática sobre introdução Spring Boot - Java Web / [Exercícios](https://github.com/Feruaro/Pan-Academy/tree/main/Aulas%20-%20Spring/26-10)
+* 27/10   :arrow_right:     Aula Spring Web, Spring Boot Dev Tools, Spring Data JPA, Validation, H2 Database / [Exercícios](https://github.com/Feruaro/Pan-Academy/tree/main/Aulas%20-%20Spring/27-10)
+* 28/10   :arrow_right:     Aula continuação - CRUD Usuario  /  [Exercícios](https://github.com/Feruaro/Pan-Academy/tree/main/Aulas%20-%20Spring/28-10)
+* 29/10   :arrow_right:     Aula continuação - CRUD Produto  / [Exercícios](https://github.com/Feruaro/Pan-Academy/tree/main/Aulas%20-%20Spring/29-10)
+* 30/10   :arrow_right:     Aula sobre API, Tratamento de Exceptions, Banco de Dados  /  [Exercícios - Exception](https://github.com/Feruaro/Pan-Academy/tree/main/Aulas%20-%20Java/30-10)​
+
   ​
 
 
