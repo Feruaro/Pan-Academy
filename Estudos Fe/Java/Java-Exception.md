@@ -12,10 +12,79 @@
 
   ​
 
-### Casos:
+### Error:
 
 ---------
 
-* **Error**: Usada pela JVM que serve para indicar se existe algum problema de recurso do programa, tornando a execução impossível de continuar;
-* **Unchecked (Runtime)**: Exceptions que PODEM ser evitados se forem tratados e analisados pelo desenvolvedor. Geralmente são excessões de lógica;
-* **Checked Exception**: Exceptions que DEVEM ser evitados e tratados pelo desenvolvedor para o progama funcionar. São obrigatórias o tratamento;
+* Não tem como tratar como uma exceção, não são checados pelo compilador (eventos irrecuperáveis);
+
+* Usada pela JVM que serve para indicar se existe algum problema de recurso do programa, tornando a execução impossível de continuar;
+
+* Documentação [Class Error](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Error.html);
+
+  ​
+
+### Exception:
+
+-------------
+
+* Unchecked (Runtime):
+
+  * Exceptions que **podem** ser evitados se forem tratados e analisados pelo desenvolvedor;
+  * Exceções não checadas pelo compilador;
+  * Geralmente são excessões de lógica;
+  * Documentação [Class RuntimeException](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/RuntimeException.html);
+
+* Checked Exception:
+
+  * Exceptions que **devem** ser evitados e tratados pelo desenvolvedor para o progama funcionar. São obrigatórias o tratamento;
+
+  * Condições excepcionais checadas pelo compilador (eventos recuparáveis);
+
+  * Documentação [Class Exception](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html)
+
+    ​
+
+### Imagens Hierarquia Exceptions:
+
+------------------
+
+
+
+![exception-hierarchy-1](F:\Documentos\FERNANDA\PAN\GITHUB\Pan-Academy-Java\Estudos Fe\imagens\exception-hierarchy-1.png)
+
+
+
+![java-exception-handling-class-hierarchy-diagram](F:\Documentos\FERNANDA\PAN\GITHUB\Pan-Academy-Java\Estudos Fe\imagens\java-exception-handling-class-hierarchy-diagram.jpg)
+
+
+
+### Tratamento:
+
+-----------------------
+
+* **try, catch, finally:** cada uma dessas palavras, juntas, definem blocos para tratamento de exceções;
+
+* **throws:** declara que um método pode lançar uma ou várias exceções;
+
+* **throw:** lança explicitamente uma exception;
+
+  ​
+
+
+
+### Referências:
+
+------------
+
+* https://github.com/cami-la/exceptions-java
+
+* https://web.digitalinnovation.one/course/tratamento-de-excecoes-em-java/learning/6fad4964-b716-4a93-910c-8fb6175a3a1d?back=/browse
+
+  ​
+
+### Certificado:
+
+-----------
+
+* [Certificado]()
