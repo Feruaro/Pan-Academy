@@ -51,11 +51,11 @@
 
 
 
-![exception-hierarchy-1](F:\Documentos\FERNANDA\PAN\GITHUB\Pan-Academy-Java\Estudos Fe\imagens\exception-hierarchy-1.png)
+![exception-hierarchy-1](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/imagens/exception-hierarchy-1.png)
 
 
 
-![java-exception-handling-class-hierarchy-diagram](F:\Documentos\FERNANDA\PAN\GITHUB\Pan-Academy-Java\Estudos Fe\imagens\java-exception-handling-class-hierarchy-diagram.jpg)
+![java-exception-handling-class-hierarchy-diagram](https://github.com/Feruaro/Pan-Academy-Java/blob/main/Estudos%20Fe/imagens/java-exception-handling-class-hierarchy-diagram.jpg)
 
 
 
