@@ -1,20 +1,20 @@
 ## Exercício MongoDB:
 
-- [x] Você deve criar um banco de dados novo (database) e uma coleção com um nome pertinente, de acordo com os dados e tema que você escolher. Os seguintes comandos devem ser feitos e entregues:
+* Você deve criar um banco de dados novo (database) e uma coleção com um nome pertinente, de acordo com os dados e tema que você escolher. Os seguintes comandos devem ser feitos e entregues:
 
-      - [x] Inserção de documentos;
+- [x] Inserção de documentos;
 
-      - [x] Atualização de documentos;
+- [x] Atualização de documentos;
 
-      - [x] Exclusão de documentos;
+- [x] Exclusão de documentos;
 
-      - [x] Consulta com projeção;
+- [x] Consulta com projeção;
 
-      - [x] Consulta utilizando combinação entre os seletores;
+- [x] Consulta utilizando combinação entre os seletores;
 
-      - [x] Consulta paginada e ordenada (utilizar ignorar , limitar e classificar );
+- [x] Consulta paginada e ordenada (utilizar ignorar , limitar e classificar );
 
-            ​
+      ​
 
 #### Desenvolvimento da atividade:
 
