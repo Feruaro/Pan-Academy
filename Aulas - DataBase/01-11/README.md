@@ -46,19 +46,19 @@
   - Inserção de documentos:
 
     - cliquei na coleção e com o batão direito  ➜  **Insert Document...**
-    - [Inserção - JSON]()
+    - [Inserção - JSON](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/01-11/Inser%C3%A7%C3%A3o%20de%20documentos%20-%20atividade%20MongoDB.md)
 
   - Atualização de documentos:
 
-    - [Atualização - comandos e JSON]()
+    - [Atualização - comandos e JSON](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/01-11/Atualiza%C3%A7%C3%A3o%20de%20documentos%20-%20atividade%20MongoDB.md)
 
   - Exclusão de documentos:
 
-    - [Exclusão - comandos e JSON]()
+    - [Exclusão - comandos e JSON](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/01-11/Exclus%C3%A3o%20de%20documentos%20-%20atividade%20MongoDB.md)
 
   - Consultas:
 
-    - [Consultas - comandos]()
+    - [Consultas - comandos](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/01-11/Consultas%20-%20atividade%20MongoDB.md)
 
       ​
 
