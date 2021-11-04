@@ -6,7 +6,7 @@
 
 * Renomear o campo da cliente Andréia Cardoso:
 
-  * produto_3  ➜  produto_4
+  * produto_3  ➜  produto_4;
 
     ​
 
@@ -131,7 +131,7 @@
 
 * Atualizar o telefone da cliente Jenifer Souza:
 
-  * "telefone" : "(51) 98459-3589"  ➜   "telefone" : "(51) 77777-7777"
+  * "telefone" : "(51) 98459-3589"  ➜   "telefone" : "(51) 77777-7777";
 
     ​
 
@@ -329,9 +329,9 @@
 
 * Atualizar os campos da mesma cliente:
 
-  * valor_total: 102.00  ➜  79.1 (102.00 - 22.9)
+  * valor_total: 102.00  ➜  79.1 (102.00 - 22.9);
 
-  * valor_parcela: 51.00  ➜  39.55
+  * valor_parcela: 51.00  ➜  39.55;
 
     ​
 
