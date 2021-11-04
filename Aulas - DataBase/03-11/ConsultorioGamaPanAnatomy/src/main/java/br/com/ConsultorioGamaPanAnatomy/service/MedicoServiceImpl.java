@@ -30,14 +30,19 @@ public class MedicoServiceImpl implements MedicoService {
 	}
 
 	@Override
-	public Medico update(String id, Medico obj) {
-		// TODO Auto-generated method stub
-		return null;
+	public Medico update(String id, Medico medico) {
+		Medico objMedico = this.getId(id);
+		objMedico.setNome(medico.getNome());
+		objMedico.setDocumentoProfissional(medico.getDocumentoProfissional());
+		objMedico.setEspecialidade(medico.getEspecialidade());
+		objMedico.setTelefone(medico.getTelefone());
+		
+		return mr.save(objMedico);
 	}
 
-//	@Override
-//	public void delete(String id) {
-//		// TODO Auto-generated method stub
-//		
-//	}
+	@Override
+	public void delete(String id) {
+		getId(id);
+		mr.deleteById(id);
+	}
 }

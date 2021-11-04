@@ -16,6 +16,6 @@ public interface MedicoService {
 	
 	public Medico update(String id, Medico obj);
 	
-//	public void delete(String id);
+	public void delete(String id);
 	
 }

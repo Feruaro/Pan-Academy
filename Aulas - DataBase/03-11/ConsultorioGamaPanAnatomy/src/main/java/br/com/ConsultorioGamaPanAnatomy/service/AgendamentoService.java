@@ -14,7 +14,7 @@ public interface AgendamentoService {
 	
 	public Agendamento create(Agendamento agendamento);
 	
-//	public Agendamento update(String id, Agendamento obj);
-//	
-//	public void delete(String id);
+	public Agendamento update(String id, Agendamento obj);
+	
+	public void delete(String id);
 }

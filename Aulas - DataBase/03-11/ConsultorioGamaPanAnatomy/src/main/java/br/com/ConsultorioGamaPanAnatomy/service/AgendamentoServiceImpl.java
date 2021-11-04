@@ -38,15 +38,24 @@ public class AgendamentoServiceImpl implements AgendamentoService {
 		return this.ar.save(agendamento);
 	}
 
-//	@Override
-//	public Agendamento update(String id, Agendamento obj) {
-//		// TODO Auto-generated method stub
-//		return null;
-//	}
-//
-//	@Override
-//	public void delete(String id) {
-//		// TODO Auto-generated method stub
-//		
-//	}
+	@Override
+	public Agendamento update(String id, Agendamento agendamento) {
+		Agendamento objAgendamento = getId(id);
+		objAgendamento.setData(agendamento.getData());
+		objAgendamento.setHorario(agendamento.getHorario());		
+		objAgendamento.setNomePaciente(agendamento.getNomePaciente());
+		objAgendamento.setDataNascPaciente(agendamento.getDataNascPaciente());
+		objAgendamento.setCarteirinhaPaciente(agendamento.getCarteirinhaPaciente());
+		objAgendamento.setTelefonePaciente(agendamento.getTelefonePaciente());
+		objAgendamento.setDescricaoAgendamento(agendamento.getDescricaoAgendamento());
+		objAgendamento.setMedico(agendamento.getMedico());	
+		
+		return ar.save(objAgendamento);
+	}
+
+	@Override
+	public void delete(String id) {
+		getId(id);
+		ar.deleteById(id);
+	}
 }

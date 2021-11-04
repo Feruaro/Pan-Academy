@@ -4,9 +4,11 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,9 +34,21 @@ public class AgendamentoController {
 		return ResponseEntity.ok().body(objAgendamento);
 	}
 	
-	@PostMapping
+	@PostMapping(path = "create")
 	public Agendamento create(@RequestBody Agendamento agendamento) {
 		return this.as.create(agendamento);
+	}
+	
+	@PutMapping(path = "{id}")
+	public ResponseEntity<Agendamento> update(@PathVariable String id, @RequestBody Agendamento agendamento){
+		Agendamento objAgendamento = as.update(id, agendamento);
+		return ResponseEntity.ok().body(objAgendamento);
+	}
+	
+	@DeleteMapping(path = "{id}")
+	public ResponseEntity<Agendamento> delete(@PathVariable String id) {
+		as.delete(id);
+		return ResponseEntity.noContent().build();
 	}
 	
 }
