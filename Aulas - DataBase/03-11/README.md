@@ -23,25 +23,25 @@
 
 -----
 
-* Criar médico:
+* [Criar médico](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/create-medico.jpg):
 
   ​
 
 ![create-medico](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/create-medico.jpg)
 
-* Criar paciente:
+* [Criar paciente](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/create-paciente.jpg):
 
   ​
 
 ![create-paciente](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/create-paciente.jpg)
 
-* Criar agendamento:
+* [Criar agendamento](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/create-agendamento.jpg):
 
   ​
 
 ![create-agendamento](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/create-agendamento.jpg)
 
-* Lista de médicos:
+* [Lista de médicos](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/robo3T-medicos.jpg):
 
   ​
 
@@ -49,7 +49,7 @@
 
 ![lista-medicos-robo3T](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/robo3T-medicos.jpg)
 
-* Lista de pacientes:
+* [Lista de pacientes](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/robo3T-pacientes.jpg):
 
   ​
 
@@ -57,7 +57,7 @@
 
 ![lista-pacientes-robo3T](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/robo3T-pacientes.jpg)
 
-* Lista de agendamentos:
+* [Lista de agendamentos](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/robo3T-agendamentos.jpg):
 
   ​
 
@@ -65,25 +65,25 @@
 
 ![lista-agendamentos-robo3T](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/robo3T-agendamentos.jpg)
 
-* Atualizar alguns campos do médico:
+* [Atualizar alguns campos do médico](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/update-medico.jpg):
 
   ​
 
 ![update-medico](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/update-medico.jpg)
 
-* Atualizar alguns campos do paciente:
+* [Atualizar alguns campos do paciente](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/update-paciente.jpg):
 
   ​
 
 ![update-paciente](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/update-paciente.jpg)
 
-* Atualizar alguns campos do agendamento:
+* [Atualizar alguns campos do agendamento](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/update-agendamento.jpg):
 
   ​
 
 ![update-agendamento](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/update-agendamento.jpg)
 
-* Excluir agendamento:
+* [Excluir agendamento](https://github.com/Feruaro/Pan-Academy/blob/main/Aulas%20-%20DataBase/03-11/imagens/delete-agendamento.jpg):
 
   ​
 
