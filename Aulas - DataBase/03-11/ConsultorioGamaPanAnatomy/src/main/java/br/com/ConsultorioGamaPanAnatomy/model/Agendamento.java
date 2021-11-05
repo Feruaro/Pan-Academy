@@ -15,34 +15,24 @@ public class Agendamento implements Serializable {
 	@Id
 	private String id;
 	private String data; 
-	private String horario;
-	private String nomePaciente;
-	private String dataNascPaciente;
-	private String carteirinhaPaciente;
-	private String telefonePaciente;
 	private String descricaoAgendamento;
 	
 	@DBRef
 	private Medico medico;
+	@DBRef
+	private Paciente paciente;
 	
 	public Agendamento() {
-		
+
 	}
 
-	public Agendamento(String id, String data, String horario, String nomePaciente, String dataNascPaciente,
-			String carteirinhaPaciente, String telefonePaciente, String descricaoAgendamento, Medico medico) {
+	public Agendamento(String id, String data, String descricaoAgendamento, Medico medico, Paciente paciente) {
 		this.id = id;
 		this.data = data;
-		this.horario = horario;
-		this.nomePaciente = nomePaciente;
-		this.dataNascPaciente = dataNascPaciente;
-		this.carteirinhaPaciente = carteirinhaPaciente;
-		this.telefonePaciente = telefonePaciente;
 		this.descricaoAgendamento = descricaoAgendamento;
 		this.medico = medico;
+		this.paciente = paciente;
 	}
-
-
 
 	public String getId() {
 		return id;
@@ -58,48 +48,6 @@ public class Agendamento implements Serializable {
 		this.data = data;
 	}
 
-	public Medico getMedico() {
-		return medico;
-	}
-	public void setMedico(Medico medico) {
-		this.medico = medico;
-	}
-
-	public String getHorario() {
-		return horario;
-	}
-	public void setHorario(String horario) {
-		this.horario = horario;
-	}
-
-	public String getNomePaciente() {
-		return nomePaciente;
-	}
-	public void setNomePaciente(String nomePaciente) {
-		this.nomePaciente = nomePaciente;
-	}
-	
-	public String getDataNascPaciente() {
-		return dataNascPaciente;
-	}
-	public void setDataNascPaciente(String dataNascPaciente) {
-		this.dataNascPaciente = dataNascPaciente;
-	}
-
-	public String getCarteirinhaPaciente() {
-		return carteirinhaPaciente;
-	}
-	public void setCarteirinhaPaciente(String carteirinhaPaciente) {
-		this.carteirinhaPaciente = carteirinhaPaciente;
-	}
-
-	public String getTelefonePaciente() {
-		return telefonePaciente;
-	}
-	public void setTelefonePaciente(String telefonePaciente) {
-		this.telefonePaciente = telefonePaciente;
-	}
-
 	public String getDescricaoAgendamento() {
 		return descricaoAgendamento;
 	}
@@ -107,10 +55,23 @@ public class Agendamento implements Serializable {
 		this.descricaoAgendamento = descricaoAgendamento;
 	}
 
+	public Medico getMedico() {
+		return medico;
+	}
+	public void setMedico(Medico medico) {
+		this.medico = medico;
+	}
+
+	public Paciente getPaciente() {
+		return paciente;
+	}
+	public void setPaciente(Paciente paciente) {
+		this.paciente = paciente;
+	}
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(carteirinhaPaciente, data, descricaoAgendamento, horario, id, medico, nomePaciente,
-				telefonePaciente);
+		return Objects.hash(data, descricaoAgendamento, id, medico, paciente);
 	}
 
 	@Override
@@ -122,11 +83,10 @@ public class Agendamento implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Agendamento other = (Agendamento) obj;
-		return Objects.equals(carteirinhaPaciente, other.carteirinhaPaciente) && Objects.equals(data, other.data)
-				&& Objects.equals(descricaoAgendamento, other.descricaoAgendamento)
-				&& Objects.equals(horario, other.horario) && Objects.equals(id, other.id)
-				&& Objects.equals(medico, other.medico) && Objects.equals(nomePaciente, other.nomePaciente)
-				&& Objects.equals(telefonePaciente, other.telefonePaciente);
+		return Objects.equals(data, other.data) && Objects.equals(descricaoAgendamento, other.descricaoAgendamento)
+				&& Objects.equals(id, other.id) && Objects.equals(medico, other.medico)
+				&& Objects.equals(paciente, other.paciente);
 	}
+
 	
 }

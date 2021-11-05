@@ -6,16 +6,14 @@ import br.com.ConsultorioGamaPanAnatomy.model.Medico;
 
 public interface MedicoService {
 	
-	public List<Medico> getAll();
+	public List<Medico> getListaMedicos();
 	
-	//CRUD
+	public Medico getByIdMedico(String id);
 	
-	public Medico getId(String id);
+	public Medico createMedico(Medico medico);
 	
-	public Medico create(Medico medico);
+	public Medico updateMedico(String id, Medico medico);
 	
-	public Medico update(String id, Medico obj);
-	
-	public void delete(String id);
+	public void deleteMedico(String id);
 	
 }

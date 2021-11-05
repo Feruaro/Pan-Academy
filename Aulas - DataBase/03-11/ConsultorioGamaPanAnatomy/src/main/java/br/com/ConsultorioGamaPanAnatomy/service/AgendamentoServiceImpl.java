@@ -7,8 +7,10 @@ import org.springframework.stereotype.Service;
 
 import br.com.ConsultorioGamaPanAnatomy.model.Agendamento;
 import br.com.ConsultorioGamaPanAnatomy.model.Medico;
+import br.com.ConsultorioGamaPanAnatomy.model.Paciente;
 import br.com.ConsultorioGamaPanAnatomy.repository.AgendamentoRepository;
 import br.com.ConsultorioGamaPanAnatomy.repository.MedicoRepository;
+import br.com.ConsultorioGamaPanAnatomy.repository.PacienteRepository;
 
 @Service
 public class AgendamentoServiceImpl implements AgendamentoService {
@@ -18,44 +20,47 @@ public class AgendamentoServiceImpl implements AgendamentoService {
 	
 	@Autowired
 	private MedicoRepository mr;
+	
+	@Autowired
+	private PacienteRepository pr;
 
 	@Override
-	public List<Agendamento> getAll() {
+	public List<Agendamento> getListaAgendamentos() {
 		return this.ar.findAll();
 	}
 
 	@Override
-	public Agendamento getId(String id) {
+	public Agendamento getByIdAgendamento(String id) {
 		return this.ar.findById(id).orElseThrow(() -> new IllegalArgumentException("Agendamento inexistente!"));
 	}
 
 	@Override
-	public Agendamento create(Agendamento agendamento) {
+	public Agendamento createAgendamento(Agendamento agendamento) {
 		String idMedico = agendamento.getMedico().getId();
 		Medico verificaIdMedico = mr.findById(idMedico).orElseThrow(() -> new IllegalArgumentException("Médico inexistente!"));
+		
+		String idPaciente = agendamento.getPaciente().getId();
+		Paciente verificaIdPaciente = pr.findById(idPaciente).orElseThrow(() -> new IllegalArgumentException("Paciente inexistente!"));
+		
 		agendamento.setMedico(verificaIdMedico);
+		agendamento.setPaciente(verificaIdPaciente);
 		
 		return this.ar.save(agendamento);
 	}
 
 	@Override
-	public Agendamento update(String id, Agendamento agendamento) {
-		Agendamento objAgendamento = getId(id);
-		objAgendamento.setData(agendamento.getData());
-		objAgendamento.setHorario(agendamento.getHorario());		
-		objAgendamento.setNomePaciente(agendamento.getNomePaciente());
-		objAgendamento.setDataNascPaciente(agendamento.getDataNascPaciente());
-		objAgendamento.setCarteirinhaPaciente(agendamento.getCarteirinhaPaciente());
-		objAgendamento.setTelefonePaciente(agendamento.getTelefonePaciente());
-		objAgendamento.setDescricaoAgendamento(agendamento.getDescricaoAgendamento());
-		objAgendamento.setMedico(agendamento.getMedico());	
+	public Agendamento updateAgendamento(String id, Agendamento agendamento) {
+		Agendamento newAgendamento = getByIdAgendamento(id);
+		newAgendamento.setData(agendamento.getData());
 		
-		return ar.save(objAgendamento);
+		return ar.save(null);
 	}
 
 	@Override
-	public void delete(String id) {
-		getId(id);
+	public void deleteAgendamento(String id) {
+		getByIdAgendamento(id);
 		ar.deleteById(id);
 	}
+	
+	
 }

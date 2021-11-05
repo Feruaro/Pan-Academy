@@ -14,40 +14,40 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.ConsultorioGamaPanAnatomy.model.Medico;
-import br.com.ConsultorioGamaPanAnatomy.service.MedicoService;
+import br.com.ConsultorioGamaPanAnatomy.service.MedicoServiceImpl;
 
 @RestController
 @RequestMapping(path = "/medicos")
 public class MedicoController {
 	
 	@Autowired
-	private MedicoService ms;
+	private MedicoServiceImpl ms;
 	
 	@GetMapping
-	public List<Medico> getAll() { 
-		return ms.getAll();
+	public List<Medico> getListaMedicos() { 
+		return ms.getListaMedicos();
 	}
 	
 	@GetMapping(path = "/{id}")
-	public ResponseEntity<Medico> getId(@PathVariable String id) {
-		Medico objMedico = ms.getId(id);
+	public ResponseEntity<Medico> getByIdMedico(@PathVariable String id) {
+		Medico objMedico = ms.getByIdMedico(id);
 		return ResponseEntity.ok().body(objMedico);
 	}
 	
-	@PostMapping(path = "create")
-	public Medico create(@RequestBody Medico medico) {
-		return ms.create(medico);
+	@PostMapping(path = "createMedico")
+	public Medico createMedico(@RequestBody Medico medico) {
+		return ms.createMedico(medico);
 	}
 	
 	@PutMapping(path ="{id}")
-	public ResponseEntity<Medico> update(@PathVariable String id, @RequestBody Medico medico){
-		Medico objMedico = ms.update(id, medico);
+	public ResponseEntity<Medico> updateMedico(@PathVariable String id, @RequestBody Medico medico){
+		Medico objMedico = ms.updateMedico(id, medico);
 		return ResponseEntity.ok().body(objMedico);
 	}
 	
 	@DeleteMapping(path = "/{id}")
-	public ResponseEntity<Medico> delete(@PathVariable String id){
-		ms.delete(id);
+	public ResponseEntity<Medico> deleteMedico(@PathVariable String id){
+		ms.deleteMedico(id);
 		return ResponseEntity.noContent().build();
 	}
 

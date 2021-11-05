@@ -15,34 +15,34 @@ public class MedicoServiceImpl implements MedicoService {
 	private MedicoRepository mr;
 
 	@Override
-	public List<Medico> getAll() {
+	public List<Medico> getListaMedicos() {
 		return this.mr.findAll();
 	}
 
 	@Override
-	public Medico getId(String id) {
+	public Medico getByIdMedico(String id) {
 		return this.mr.findById(id).orElseThrow(() -> new IllegalArgumentException("Médico inexistente!"));
 	}
-
+	
 	@Override
-	public Medico create(Medico medico) {
+	public Medico createMedico(Medico medico) {
 		return this.mr.save(medico);
 	}
 
 	@Override
-	public Medico update(String id, Medico medico) {
-		Medico objMedico = this.getId(id);
-		objMedico.setNome(medico.getNome());
-		objMedico.setDocumentoProfissional(medico.getDocumentoProfissional());
-		objMedico.setEspecialidade(medico.getEspecialidade());
-		objMedico.setTelefone(medico.getTelefone());
-		
-		return mr.save(objMedico);
+	public Medico updateMedico(String id, Medico medico) {
+		Medico newMedico = this.getByIdMedico(id);
+		newMedico.setTelefone(medico.getTelefone());
+		return mr.save(newMedico);
+	}
+	
+	@Override
+	public void deleteMedico(String id) {
+		this.getByIdMedico(id);
+		this.mr.deleteById(id);
 	}
 
-	@Override
-	public void delete(String id) {
-		getId(id);
-		mr.deleteById(id);
-	}
+	
+
+
 }

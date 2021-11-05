@@ -14,40 +14,40 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.ConsultorioGamaPanAnatomy.model.Agendamento;
-import br.com.ConsultorioGamaPanAnatomy.service.AgendamentoService;
+import br.com.ConsultorioGamaPanAnatomy.service.AgendamentoServiceImpl;
 
 @RestController
 @RequestMapping(path = "/agendamentos")
 public class AgendamentoController {
 	
 	@Autowired
-	private AgendamentoService as;
+	private AgendamentoServiceImpl as;
 	
 	@GetMapping
 	public List<Agendamento> getAll(){
-		return this.as.getAll();
+		return this.as.getListaAgendamentos();
 	}
 	
 	@GetMapping(path = "/{id}")
 	public ResponseEntity<Agendamento> getId(@PathVariable String id){
-		Agendamento objAgendamento = this.as.getId(id);
+		Agendamento objAgendamento = this.as.getByIdAgendamento(id);
 		return ResponseEntity.ok().body(objAgendamento);
 	}
 	
-	@PostMapping(path = "create")
+	@PostMapping(path = "createAgendamento")
 	public Agendamento create(@RequestBody Agendamento agendamento) {
-		return this.as.create(agendamento);
+		return this.as.createAgendamento(agendamento);
 	}
 	
 	@PutMapping(path = "{id}")
 	public ResponseEntity<Agendamento> update(@PathVariable String id, @RequestBody Agendamento agendamento){
-		Agendamento objAgendamento = as.update(id, agendamento);
+		Agendamento objAgendamento = as.updateAgendamento(id, agendamento);
 		return ResponseEntity.ok().body(objAgendamento);
 	}
 	
 	@DeleteMapping(path = "{id}")
 	public ResponseEntity<Agendamento> delete(@PathVariable String id) {
-		as.delete(id);
+		as.deleteAgendamento(id);
 		return ResponseEntity.noContent().build();
 	}
 	
