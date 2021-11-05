@@ -31,13 +31,13 @@ public class PacienteServiceImpl implements PacienteService {
 
 	@Override
 	public Paciente updatePaciente(String id, Paciente paciente) {
-		Paciente newPaciente = pr.findById(id).orElseThrow(() -> new IllegalArgumentException("Paciente inexistente!"));
+		Paciente newPaciente = getByIdPaciente(id);
 		
-		newPaciente.setCarteirinha(paciente.getCarteirinha());
-		newPaciente.setEndereco(paciente.getEndereco());
-		newPaciente.setPlanoSaude(paciente.getPlanoSaude());
-		newPaciente.setTelefone(paciente.getTelefone());
-		
+		if(paciente.getPlanoSaude() != null) newPaciente.setPlanoSaude(paciente.getPlanoSaude());
+		if(paciente.getCarteirinha() != null) newPaciente.setCarteirinha(paciente.getCarteirinha());		
+		if(paciente.getEndereco() != null) newPaciente.setEndereco(paciente.getEndereco());
+		if(paciente.getTelefone() != null) newPaciente.setTelefone(paciente.getTelefone());
+	
 		return this.pr.save(newPaciente);
 	}
 

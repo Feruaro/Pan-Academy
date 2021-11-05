@@ -32,7 +32,11 @@ public class MedicoServiceImpl implements MedicoService {
 	@Override
 	public Medico updateMedico(String id, Medico medico) {
 		Medico newMedico = this.getByIdMedico(id);
-		newMedico.setTelefone(medico.getTelefone());
+		
+		if(medico.getDocumentoProfissional() != null) newMedico.setDocumentoProfissional(medico.getDocumentoProfissional());
+		if(medico.getEspecialidade() != null) newMedico.setEspecialidade(medico.getEspecialidade());
+		if(medico.getTelefone() != null) newMedico.setTelefone(medico.getTelefone());
+		
 		return mr.save(newMedico);
 	}
 	

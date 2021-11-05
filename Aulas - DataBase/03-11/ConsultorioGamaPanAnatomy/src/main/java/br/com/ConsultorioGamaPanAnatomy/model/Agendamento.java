@@ -15,6 +15,7 @@ public class Agendamento implements Serializable {
 	@Id
 	private String id;
 	private String data; 
+	private String horario; 
 	private String descricaoAgendamento;
 	
 	@DBRef
@@ -26,9 +27,10 @@ public class Agendamento implements Serializable {
 
 	}
 
-	public Agendamento(String id, String data, String descricaoAgendamento, Medico medico, Paciente paciente) {
+	public Agendamento(String id, String data, String horario, String descricaoAgendamento, Medico medico, Paciente paciente) {
 		this.id = id;
 		this.data = data;
+		this.horario = horario;
 		this.descricaoAgendamento = descricaoAgendamento;
 		this.medico = medico;
 		this.paciente = paciente;
@@ -46,6 +48,13 @@ public class Agendamento implements Serializable {
 	}
 	public void setData(String data) {
 		this.data = data;
+	}
+
+	public String getHorario() {
+		return horario;
+	}
+	public void setHorario(String horario) {
+		this.horario = horario;
 	}
 
 	public String getDescricaoAgendamento() {
@@ -71,7 +80,7 @@ public class Agendamento implements Serializable {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(data, descricaoAgendamento, id, medico, paciente);
+		return Objects.hash(data, descricaoAgendamento, horario, id, medico, paciente);
 	}
 
 	@Override
@@ -84,9 +93,10 @@ public class Agendamento implements Serializable {
 			return false;
 		Agendamento other = (Agendamento) obj;
 		return Objects.equals(data, other.data) && Objects.equals(descricaoAgendamento, other.descricaoAgendamento)
-				&& Objects.equals(id, other.id) && Objects.equals(medico, other.medico)
-				&& Objects.equals(paciente, other.paciente);
+				&& Objects.equals(horario, other.horario) && Objects.equals(id, other.id)
+				&& Objects.equals(medico, other.medico) && Objects.equals(paciente, other.paciente);
 	}
 
+	
 	
 }

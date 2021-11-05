@@ -9,8 +9,6 @@ import br.com.ConsultorioGamaPanAnatomy.model.Agendamento;
 import br.com.ConsultorioGamaPanAnatomy.model.Medico;
 import br.com.ConsultorioGamaPanAnatomy.model.Paciente;
 import br.com.ConsultorioGamaPanAnatomy.repository.AgendamentoRepository;
-import br.com.ConsultorioGamaPanAnatomy.repository.MedicoRepository;
-import br.com.ConsultorioGamaPanAnatomy.repository.PacienteRepository;
 
 @Service
 public class AgendamentoServiceImpl implements AgendamentoService {
@@ -19,10 +17,10 @@ public class AgendamentoServiceImpl implements AgendamentoService {
 	private AgendamentoRepository ar;
 	
 	@Autowired
-	private MedicoRepository mr;
+	private MedicoServiceImpl ms;
 	
 	@Autowired
-	private PacienteRepository pr;
+	private PacienteServiceImpl ps;
 
 	@Override
 	public List<Agendamento> getListaAgendamentos() {
@@ -37,10 +35,10 @@ public class AgendamentoServiceImpl implements AgendamentoService {
 	@Override
 	public Agendamento createAgendamento(Agendamento agendamento) {
 		String idMedico = agendamento.getMedico().getId();
-		Medico verificaIdMedico = mr.findById(idMedico).orElseThrow(() -> new IllegalArgumentException("Médico inexistente!"));
+		Medico verificaIdMedico = ms.getByIdMedico(idMedico);
 		
 		String idPaciente = agendamento.getPaciente().getId();
-		Paciente verificaIdPaciente = pr.findById(idPaciente).orElseThrow(() -> new IllegalArgumentException("Paciente inexistente!"));
+		Paciente verificaIdPaciente = ps.getByIdPaciente(idPaciente);
 		
 		agendamento.setMedico(verificaIdMedico);
 		agendamento.setPaciente(verificaIdPaciente);
@@ -51,9 +49,12 @@ public class AgendamentoServiceImpl implements AgendamentoService {
 	@Override
 	public Agendamento updateAgendamento(String id, Agendamento agendamento) {
 		Agendamento newAgendamento = getByIdAgendamento(id);
-		newAgendamento.setData(agendamento.getData());
 		
-		return ar.save(null);
+		if(agendamento.getData() != null) newAgendamento.setData(agendamento.getData());
+		if(agendamento.getHorario() != null) newAgendamento.setHorario(agendamento.getHorario());
+		if(agendamento.getDescricaoAgendamento() != null) newAgendamento.setDescricaoAgendamento(agendamento.getDescricaoAgendamento());
+				
+		return ar.save(newAgendamento);
 	}
 
 	@Override
