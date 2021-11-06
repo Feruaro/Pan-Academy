@@ -1,12 +1,12 @@
 ## Exercício MySQL:
 
-* Criar uma tabela de Estados com:
-   undefined[x] id (Id deve ser a PK)
-   undefined[x] nome (nome campo único) 
-   undefined[x] sigla (utilizar ENUM)
-   undefined[x] região (utilizar ENUM)
-   undefined[x] população
-      ​
+Criar uma tabela de Estados com:
+
+- [x] id (Id deve ser a PK)
+- [x] nome (nome campo único) 
+- [x] sigla (utilizar ENUM)
+- [x] região (utilizar ENUM)
+- [x] população
 
 `use panacademy;`
 
@@ -30,11 +30,11 @@ primary key (id)
 - [x] Inserir 10 estados (dois de cada região)
 
 
-`insert into` 
+insert into
 ```
 estados_brasileiros (nome, sigla, regiao, populacao) 
 ```
-`values` 
+values 
 	("Rio Grande do Sul", "RS", "Sul", 11290000),
 	("Santa Catarina", "SC", "Sul", 7165000),
 	("São Paulo", "SP", "Sudeste", 44040000),
