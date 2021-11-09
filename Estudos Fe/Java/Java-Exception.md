@@ -34,6 +34,7 @@
   * Exceções não checadas pelo compilador;
   * Geralmente são excessões de lógica;
   * Documentação [Class RuntimeException](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/RuntimeException.html);
+  * [Unchecked na prática](https://github.com/Feruaro/Pan-Academy/blob/main/Estudos%20Fe/Java/Exceptions-Java/src/br/com/estudosfe/exceptions/UncheckedException.java);
 
 * Checked Exception:
 
@@ -41,7 +42,9 @@
 
   * Condições excepcionais checadas pelo compilador (eventos recuparáveis);
 
-  * Documentação [Class Exception](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html)
+  * Documentação [Class Exception](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html);
+
+  * [Checked na prática](https://github.com/Feruaro/Pan-Academy/blob/main/Estudos%20Fe/Java/Exceptions-Java/src/br/com/estudosfe/exceptions/CheckedExceptions.java);
 
     ​
 
@@ -68,6 +71,8 @@
 * **throws:** declara que um método pode lançar uma ou várias exceções;
 
 * **throw:** lança explicitamente uma exception;
+
+* [Mais prática sobre Exceptions](https://github.com/Feruaro/Pan-Academy/tree/main/Estudos%20Fe/Java/Exceptions-Java/src/br/com/estudosfe/exceptions/personalizadas)
 
   ​
 
