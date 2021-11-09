@@ -1,0 +1,9 @@
+Dias da semana:
+
+Segunda
+Terça
+Quarta
+Quinta
+Sexta
+Sábado
+Domingo
