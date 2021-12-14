@@ -31,13 +31,14 @@
 * 03/11   :arrow_right:     Aula sobre integração Java e MongoDB  /  [Exercícios](https://github.com/Feruaro/Pan-Academy/tree/main/Aulas%20-%20DataBase/03-11)
 * 05/11   :arrow_right:     Apresentação projeto final e reunião dos grupos   /  [Repositório Projeto Final](https://github.com/Feruaro/Blue-Bank-Pan-Academy)
 * 06/11   :arrow_right:     Aula sobre MySQL e exercícios para exercitar  /  [Exercícios](https://github.com/Feruaro/Pan-Academy/tree/main/Aulas%20-%20DataBase/06-11)
-* ​
+
+  ​
 
 
 ### :moneybag: Projeto Final:
 
 ---------
 
-* Repostiório do [projeto](https://github.com/Feruaro/Blue-Bank-Pan-Academy)
+* Repostiório do [projeto](https://github.com/Feruaro/Five-Stars-Bank)
 
 
